@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DecodificadorOne</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <img src="assets/Vector.png" alt="logotipo">
+    <h1>Decodificador Desafio One</h1>
+
+    <div class="container__input">
+      <img id="initialImage" src="assets/1.PNG" alt="ImagemInicial">
+      <textarea id="input" name="input" placeholder="digite a mensagem que pretende encriptar ou decriptar em minusculas e sem acentos." rows="10"></textarea>
+
+      <div class="buttons">
+        <button id="btnEncriptar" class="btn">Criptografar</button>
+       <button id="btnDescriptografar" class="btn">Descriptografar</button>
+     </div>
+
+    </div>
+
+    <div class="container__output">
+
+      <label for="output">Resultado:</label>
+      <textarea id="output" name="output" rows="5" readonly>  
+      </textarea>
+      <button id="btnCopiar" class="btn">Copiar</button>
+
+    </div>
+
+    <footer class="rodape">
+      <p>&copy; Desenvolvido por: Sandra Cristina Nunes</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
